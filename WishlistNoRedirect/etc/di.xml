@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<preference for="Magento\Wishlist\Controller\Index\Add" type="DoAgency\WishlistNoRedirect\Controller\Index\Add" />	
+</config>
