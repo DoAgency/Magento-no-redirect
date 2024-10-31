@@ -10,21 +10,16 @@ Installation
 Upload the plugin files: Copy the plugin files to the app/code directory of your Magento installation.
 
 Enable the plugin:
-
-bash
-Copia codice
+bin/magento module:enable YourCompany_WishlistNoRedirect
 bin/magento module:enable DoAgency_WishlistNoRedirect
-Run setup and compile:
 
-bash
-Copia codice
+Run setup and compile:
 bin/magento setup:upgrade
 bin/magento setup:di:compile
-Clear cache:
 
-bash
-Copia codice
+Clear cache:
 bin/magento cache:clean
+
 Compatibility
 Magento 2.3 and higher.
 Usage
